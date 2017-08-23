@@ -1,0 +1,38 @@
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	background-color: yellow;
+	display: inline-block;
+	width: 50%;
+}
+
+.conteudo {
+	background-color: lime;
+	display: inline-block;
+	width: 50%;
+}
+
+.menu2 {
+	background-color: yellow;
+	float: left;
+	width: 50%;
+}
+
+.conteudo2 {
+	background-color: lime;
+	float: left;
+	width: 50%;
+}
+
+.centralizado {
+	background-color: yellow;
+	background-image: url('https://image.freepik.com/free-vector/abstract-background-with-a-3d-pattern_1319-68.jpg');
+	background-repeat: repeat-y;
+	width: 1500px;
+	height: 1000px;
+	margin: auto;
+}

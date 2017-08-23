@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Cadastro</title>
+   <meta charset="UTF-8"/>
+</head>
+<body>
+   <h1>Formulário de cadastro</h1>
+   
+   <form method="POST" action="sucesso.html">
+   	<label for="nome">Nome:</label>
+   	<input type="text" name="nome" id="nome" placeholder="Digite aqui seu nome!" tabindex="2" />
+
+		<br>
+
+		<label>Sexo:</label>
+		<input type="radio" name="sexo" value="M" tabindex="5"/> Masculino
+		<input type="radio" name="sexo" value="F" tabindex="1"/> Feminino
+
+		<br>
+
+		<label>Cores preferidas:</label>
+		<input type="checkbox" name="cor_preferida" value="Vermelho" tabindex="4"/> Vermelho
+		<input type="checkbox" name="cor_preferida" value="Amarelo" tabindex="3"/> Amarelo
+		<input type="checkbox" name="cor_preferida" value="Azul" tabindex="7"/> Azul
+		<input type="checkbox" name="cor_preferida" value="Verde" tabindex="6"/> Verde
+
+		<br>
+
+   	<input type="submit" value="Enviar"/>
+   </form>
+</body>
+</html>
