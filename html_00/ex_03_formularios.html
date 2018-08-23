@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jorge Homepage</title>
+</head>
+<body>
+    <h1 class="titulo">Formulários</h1>
+    
+    <form action="http://127.0.0.1/recebe_formulario" method="post">
+        <input type="hidden" name="informacao_oculta" value="segredo!">
+
+        <label>Nome:</label>
+        <input type="text" name="nome" value="" placeholder="Escreva seu nome aqui!" style="width: 200px">
+
+        <br><br>
+
+        <label>Idade:</label>
+        <input type="number" name="idade" value="20" placeholder="Escreva sua idade aqui!" readonly>
+
+        <br><br>
+
+        <label>Cor preferida:</label>
+        <select name="cor_preferida">
+            <option value="red">Vermelho</option>
+            <option value="green">Verde</option>
+            <option value="yellow">Amarelo</option>
+        </select>
+
+        <br><br>
+
+        <label>Cor preferida:</label>
+        <select name="cor_preferida" multiple rows="3">
+            <option value="red">Vermelho</option>
+            <option value="green">Verde</option>
+            <option value="yellow">Amarelo</option>
+        </select>
+
+        <br><br>
+
+        <label>Cor preferida de verdade!:</label>
+        <label>
+            <input type="radio" name="cor_preferida_2" value="red">Vermelho</option>
+        </label>
+        <label>
+            <input type="radio" name="cor_preferida_2" value="green">Verde</option>
+        </label>
+        <label>
+            <input type="radio" name="cor_preferida_2" value="yellow">Amarelo</option>
+        </label>
+
+        <br><br>
+
+        <label>Cores preferidas! Agora é pra valer!:</label>
+        <input type="checkbox" name="cor_preferida_3" value="red">Vermelho</option>
+        <input type="checkbox" name="cor_preferida_3" value="green">Verde</option>
+        <input type="checkbox" name="cor_preferida_3" value="yellow">Amarelo</option>
+
+        <br><br>
+
+        <input type="submit" value="Dále!">
+    </form>
+</body>
+</html>

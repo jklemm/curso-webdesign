@@ -1,0 +1,20 @@
+b {
+    font-family: "Comic Sans MS";
+}
+
+.caixa {
+    background-color: #0f0;
+    margin: 100px;
+    border: 3px solid pink;
+    padding: 10px;
+}
+
+#bola {
+    display: block;
+    height: 60px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+}
